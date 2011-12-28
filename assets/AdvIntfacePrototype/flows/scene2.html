@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Example File for Advanture interface within HTML, CSS, jQuery</title>
+	<script type="text/javascript" src="../common/jQuery.js"></script>
+	<script type="text/javascript" src="../common/jTypeWriter.js"></script>
+	<script type="text/javascript" src="../common/actions.js"></script>
+	<style type="text/css" media="screen">
+		#page-background{position: fixed; top:0; left:0; width:100%; height:100%;}
+		#character{position: fixed; top:10%; left:10%; width:40%; height:100%;}
+		#cover {position: fixed; top: 70%; left:0; width:100%; height:30%;
+		background-image:url("../img/bacon_talk_bubble.png"); background-size:100% 100%; }
+		#dialog {position: fixed; top: 70%; left:0; width:100%; height:30%;
+		background-image:url("../img/bacon_talk_bubble.png"); background-size:100% 100%; }
+		#dialog_contents {color: red; padding-left: 5%}
+		#forcecomp {position: fixed; top: 70%; left:0; width:100%; height:30%;
+		background-image:url("../img/bacon_talk_bubble.png"); background-size:100% 100%; }
+		#forcecomp_contents {color: red; padding-left: 5%}
+	</style>
+</head>
+<body>
+	<div id = "page-background"><img src="../img/background.png" width="100%" height="100%" alt="bgimg"></div>
+	<div id = "character"><img src="../img/girl.png" width="100%" height="100%"></div>
+	<div id = "cover"></div>
+	<div id = "dialog">
+		<p id="dialog_contents">이를 닦자. 두번 </p>
+   	</div>
+   	<div id = "forcecomp">
+   		<p id="forcecomp_contents">이를 닦자. 두번 빨리</p>
+   	</div>
+   	<p id="next">scene1.html</p>
+</body>
+
+</html>
